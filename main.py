@@ -45,7 +45,7 @@ def decrypt_message(encrypted_message,
     
     return decrypted.decode()
 
-message='skibidi toilet'
+message=input('skibidi toilet')
 encrypted_msg=encrypt_message(message,public_key)
 
 decrypted_msg=decrypt_message(encrypted_msg,private_key)
