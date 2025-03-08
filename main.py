@@ -52,6 +52,9 @@ print('Encrypted: ', encrypted_msg)
 decrypted_msg=decrypt_message(encrypted_msg,private_key)
 print('decrypted: ', decrypted_msg)
 
+#loeopugofewgyoeuergfuietrrutfuertfyuertyutfuyeruqrferjrghjdfrgeroygfierwyigteritgyjrryjdftyjradsyujtryudsfryusdrgfurfgdyudfjygrkjsdfrbkhdsrfbyku
+print(encrypted_msg)
+
 import socket
 from cryptography.hazmat.primitives import serialization
 with open('private_key.pem', 'rb') as f:
