@@ -1,6 +1,8 @@
 from uuid import uuid4
 from nicegui import ui
 
+ui.label('Cypher chat')
+
 messages = []
 
 @ui.refreshable
