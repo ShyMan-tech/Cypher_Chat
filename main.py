@@ -45,15 +45,14 @@ def decrypt_message(encrypted_message,
     
     return decrypted.decode()
 
-message='jjjjjjkjhkgjr'
+message='skibidi toilet'
 encrypted_msg=encrypt_message(message,public_key)
-print('Encrypted: ', encrypted_msg)
 
 decrypted_msg=decrypt_message(encrypted_msg,private_key)
 print('decrypted: ', decrypted_msg)
 
 #loeopugofewgyoeuergfuietrrutfuertfyuertyutfuyeruqrferjrghjdfrgeroygfierwyigteritgyjrryjdftyjradsyujtryudsfryusdrgfurfgdyudfjygrkjsdfrbkhdsrfbyku
-print(encrypted_msg)
+print('encrypted:', encrypted_msg)
 
 import socket
 from cryptography.hazmat.primitives import serialization
